@@ -57,7 +57,7 @@
       </div>
     </app-modal>
 
-    <p class="wat" @click="showExplainModal = true">{{ $t("form.project") }}</p>
+    <!-- <p class="wat" @click="showExplainModal = true">{{ $t("form.project") }}</p> -->
     <app-modal v-if="showExplainModal" @close="showExplainModal = false">
       <h3 slot="header">{{ $t("modal.header.what") }}</h3>
       <div slot="body">

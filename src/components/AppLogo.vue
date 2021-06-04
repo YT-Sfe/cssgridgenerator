@@ -13,10 +13,6 @@
       </g>
     </svg>
     CSS Grid Generator
-    <p class="caveat">
-      {{ $t("header.builtby") }}
-      <a href="https://twitter.com/sarah_edo" target="_blank">sarah_edo</a>
-    </p>
   </nav>
 </template>
 
